@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> 
+    <link rel="stylesheet" href="funiture.css">
+</head>
+<body>
+   
+    <div class="landing_page">
+        <div class="navLinks">
+            <p>RelaxHouse</p>
+            <i class="fa fa-bars"  id="hide" onclick="hideMenu()"></i>
+           
+        <nav id="nav">
+           
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#" class="btn1">Login</a></li>
+                <li><a href="#" class="btn2">Sign Up</a></li>
+            </ul>
+        </nav>
+        <i class="fa fa-times" id="close" onclick="closeMenu()"></i>
+        
+         </div>
+        <div class="landing_page_text">
+            <h1>For the <span>beauty</span> of <br> your Home</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Dolore br autem corporis ad accusamus <br><span>saepe obcaecati!</span> </p>
+
+        </div>
+        
+    </div>
+
+    <div class="section_page">
+        <div class="text_box_section">
+            <h1>Why choosing us</h1>
+        </div>
+        <div class="row_text">
+            <div class="column_text">
+                <h3>Luxury Facilities</h3>
+                <p>The advantage of hiring a workspace with us is that gives you comfortable service and all-around facilities</p>
+            </div>
+
+            <div class="column_text">
+                <h3>Affordable Prices</h3>
+                <p>The advantage of hiring a workspace with us is that gives you comfortable service and all-around facilities</p>
+        
+            </div>
+
+            <div class="column_text">
+                <h3>Many Choices</h3>
+                <p>The advantage of hiring a workspace with us is that gives you comfortable service and all-around facilities</p>
+            </div>
+    
+        
+          
+           
+        </div>
+
+    
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script>
+        let nav = document.getElementById("nav");
+
+        function hideMenu(){
+            nav.style.right = "0";
+        }
+        function closeMenu(){
+            nav.style.right = "-250px";
+        }
+    </script>
+</body>
+</html>
